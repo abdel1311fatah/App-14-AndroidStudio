@@ -8,19 +8,6 @@
     tools:context=".MainActivity2">
 
     <Button
-        android:id="@+id/recover"
-        android:layout_width="147dp"
-        android:layout_height="51dp"
-        android:onClick="recover"
-        android:text="Recover data"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.939"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.863" />
-
-    <Button
         android:id="@+id/save"
         android:layout_width="148dp"
         android:layout_height="48dp"
@@ -29,10 +16,23 @@
         android:text="Save data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.928" />
+
+    <Button
+        android:id="@+id/recover"
+        android:layout_width="147dp"
+        android:layout_height="51dp"
+        android:onClick="recover"
+        android:text="Recover data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
 
     <Button
         android:id="@+id/goToSecondScreen"
@@ -42,10 +42,10 @@
         android:text="Exit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -142,10 +142,10 @@
         android:text="Estas treballant?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.525" />
+        app:layout_constraintVertical_bias="0.504" />
 
     <RadioGroup
         android:layout_width="172dp"
@@ -153,7 +153,7 @@
         android:layout_marginBottom="176dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0">
@@ -178,10 +178,10 @@
         android:layout_centerHorizontal="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEstudisNoAcabats"
-        app:layout_constraintVertical_bias="0.235" />
+        app:layout_constraintVertical_bias="0.201" />
 
     <EditText
         android:id="@+id/editTextPostal"
@@ -197,5 +197,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEstudisNoAcabats"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="149dp"
+        android:layout_height="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPostal"
+        app:layout_constraintVertical_bias="0.913" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

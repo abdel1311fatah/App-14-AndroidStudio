@@ -11,6 +11,7 @@
         android:id="@+id/editTextName"
         android:layout_width="413dp"
         android:layout_height="48dp"
+        android:layout_marginStart="2dp"
         android:ems="10"
         android:hint="Name:"
         android:inputType="text"
@@ -51,15 +52,16 @@
         android:id="@+id/editTextmailAddress"
         android:layout_width="413dp"
         android:layout_height="44dp"
+        android:layout_marginStart="4dp"
         android:ems="10"
         android:hint="Email:"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintVertical_bias="0.275" />
 
     <Button
         android:id="@+id/recover"
@@ -103,18 +105,19 @@
 
     <EditText
         android:id="@+id/editTextDni"
-        android:layout_width="410dp"
-        android:layout_height="60dp"
+        android:layout_width="407dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="2dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="DNI:"
+        android:hint=" DNI:"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintVertical_bias="0.344" />
 
     <EditText
         android:id="@+id/editTextSurname"
